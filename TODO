@@ -1,0 +1,55 @@
+# Task List
+## RoadMap
+- [] Initialize the project
+- [] Make requirement of coreAuth optional
+## Publishing Tasks
+- [] Initialize the project
+    - [] Add `.editorconfig`
+    - [] Add `.gitignore`
+    - [] Add `.github/ISSUE_TEMPLATE/bug_report.md`
+    - [] Add `.github/ISSUE_TEMPLATE/feature_request.md`
+    - [] Add `.github/FUNDING.yml`
+    - [] Add `.github/no-response.yml`
+    - [] Add `SECURITY.md`
+        - [] Update links in `SECURITY.md`
+    - [] Add `TODO`
+    - [] Add `VERSION`
+    - [] Add `dist/img/logo.png`
+    - [] Update `README.md`
+    - [] Create directory `src`
+    - [] Create directory `docs`
+    - [] Create directory `example`
+    - [] Initialize Composer `composer init`
+    - [] Dump autoload `composer dump-autoload`
+    - [] Update requirements in `config/requirements.cfg`
+    - [] Remove any credentials in the project
+    - [] Perform initial push to GitHub
+    - [] Create `stable` branch from `dev` branch on GitHub
+    - [] Set `stable` branch as default branch on GitHub
+    - [] Create a package on Packagist
+    - [] Create a release on GitHub
+- [] Create the core class
+    - [] Create the `Core` class
+    - [] Create the `Core` class methods
+- [] Integrations
+    - [] Integration with **coreLogger**
+        - [] Use the Logger class to log messages and provide feedback
+    - [] Integration with **coreConfigurator**
+        - [] Use the Configurator class to load the configuration
+        - [] Create a `config/configurator.cfg` file to store the form layout for the configurator
+    - [] Integration with **coreInstaller**
+        - [] Create the `isInstalled` method in the `Core` class (optional)
+- [] Documentations
+    - [] Create the `docs/usage.md` file
+    - [] Add the list of properties in `docs/usage.md`
+    - [] Create the directory `docs/methods`
+    - [] Create a directory for each class in `docs/methods`
+    - [] Create a markdown file for each method in `docs/methods/{class}`
+- [] Clean up the code
+    - [] Remove unnecessary files
+    - [] Remove unnecessary code
+    - [] Remove unnecessary comments
+    - [] Remove unnecessary dependencies
+    - [] Fix coding standards
+    - [] Add method annotations
+- [] Ready to publish
