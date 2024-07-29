@@ -737,6 +737,13 @@ class Router {
         return $this->Configurator->root() . '/' . $this->Template;
     }
 
+    /**
+     * Get the Parent
+     *
+     * @return string
+     */
+    protected function getParent(){ return $this->Parent; }
+
     // Helper Methods
 
     /**
