@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "laswitchtech/core-base",
-            "version": "v1.1.5",
+            "version": "v1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/LaswitchTech/coreBase.git",
-                "reference": "9fd2e1157362736f4495486b552b02eb8020f32a"
+                "reference": "588e6f778aa6ca3725c7ba92b602826db692e5f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LaswitchTech/coreBase/zipball/9fd2e1157362736f4495486b552b02eb8020f32a",
-                "reference": "9fd2e1157362736f4495486b552b02eb8020f32a",
+                "url": "https://api.github.com/repos/LaswitchTech/coreBase/zipball/588e6f778aa6ca3725c7ba92b602826db692e5f9",
+                "reference": "588e6f778aa6ca3725c7ba92b602826db692e5f9",
                 "shasum": ""
             },
             "require": {
@@ -43,7 +43,7 @@
             "description": "Base Libraries for the Laswitch Core Framework",
             "support": {
                 "issues": "https://github.com/LaswitchTech/coreBase/issues",
-                "source": "https://github.com/LaswitchTech/coreBase/tree/v1.1.5"
+                "source": "https://github.com/LaswitchTech/coreBase/tree/v1.1.6"
             },
             "funding": [
                 {
@@ -51,7 +51,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-07-22T15:25:43+00:00"
+            "time": "2024-08-01T23:41:42+00:00"
         },
         {
             "name": "laswitchtech/core-configurator",
@@ -144,16 +144,16 @@
         },
         {
             "name": "laswitchtech/core-database",
-            "version": "v1.0.1",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/LaswitchTech/coreDatabase.git",
-                "reference": "7e10f95a08f51889bd9bfe352e7bacf70c05c7b7"
+                "reference": "624eec2700f09948b482373891d501e7712ab345"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LaswitchTech/coreDatabase/zipball/7e10f95a08f51889bd9bfe352e7bacf70c05c7b7",
-                "reference": "7e10f95a08f51889bd9bfe352e7bacf70c05c7b7",
+                "url": "https://api.github.com/repos/LaswitchTech/coreDatabase/zipball/624eec2700f09948b482373891d501e7712ab345",
+                "reference": "624eec2700f09948b482373891d501e7712ab345",
                 "shasum": ""
             },
             "require": {
@@ -178,7 +178,7 @@
             "description": "Database Library for the Laswitch Core Framework",
             "support": {
                 "issues": "https://github.com/LaswitchTech/coreDatabase/issues",
-                "source": "https://github.com/LaswitchTech/coreDatabase/tree/v1.0.1"
+                "source": "https://github.com/LaswitchTech/coreDatabase/tree/v1.0.4"
             },
             "funding": [
                 {
@@ -186,7 +186,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-06-27T00:06:59+00:00"
+            "time": "2024-08-01T23:39:54+00:00"
         },
         {
             "name": "laswitchtech/core-locale",
