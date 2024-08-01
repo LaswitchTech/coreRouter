@@ -98,7 +98,7 @@ class Router {
         $this->Logger = new Logger('router');
 
         // Initiate Auth if class exists
-        if(class_exists('Auth')) $this->Auth = new Auth();
+        if(class_exists('LaswitchTech\coreAuth\Auth')) $this->Auth = new Auth();
 
         // Initiate CSRF
         $this->CSRF = new CSRF();
